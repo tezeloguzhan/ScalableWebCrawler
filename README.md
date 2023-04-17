@@ -2,8 +2,11 @@
 
 # File Structure : 
 <pre>
-crawler/
+crawlers/
     crawler.py --> Crawler class and process
+
+logs/
+    crawler.log --> Log file includes exceptions , crawled and skipped situations of Urls
 
 network/
     client.py --> Client for making HTTP requests
@@ -18,11 +21,12 @@ utils/
     logger.py --> Logger configiration and logger class
 
 tests/
-    unit.py --> Will be added soon
-    integration.py --> Will be added soon
+    unit.py --> Includes Cache and Parser unit tests and work with both
+    integration.py --> Integration tests general
 
 main.py --> Main file to run the crawler
 config.py --> Redis configuration , Crawling configuration, Network configuration
+requirements.txt --> Requirements for the project
 </pre>
 
 # Installation :
@@ -40,15 +44,8 @@ then :
 5. Enjoy :)
 </pre>
 
-# TO-DO :
-<pre>
 
-1-Exceptions will be handled .
-2-Logging system will be improved.
-3-Unit tests will be added.
-4-Integration tests will be added.
 
-</pre>
 
 
 
